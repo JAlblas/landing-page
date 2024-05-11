@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+header,
+.hero,
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 15px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+header h3 {
+    font-size: 24px;
+}
+
+header li,
+.hero p,
+footer p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.info h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: extra-bold;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote p {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: light;
+    font-style: italic;
+}
+
+button {
+    background-color: #3882F6;
+    color: #FFF;
+}
