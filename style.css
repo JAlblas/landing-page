@@ -13,6 +13,7 @@ h6 {
 
 ul {
     margin: 0;
+    list-style: none;
 }
 
 header,
@@ -20,7 +21,26 @@ header,
 footer {
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 15px;
+}
+
+header,
+footer,
+section {
+    padding: 15px 20%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    gap: 25px;
+}
+
+header h3 {
+    font-size: 24px;
 }
 
 .hero h1 {
@@ -28,9 +48,6 @@ footer {
     font-weight: extra-bold;
 }
 
-header h3 {
-    font-size: 24px;
-}
 
 header li,
 .hero p,
