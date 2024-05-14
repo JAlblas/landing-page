@@ -33,10 +33,6 @@ section {
     padding: 15px 25% 75px;
 }
 
-footer {
-    padding: 15px 20%;
-}
-
 header {
     display: flex;
     justify-content: space-between;
@@ -45,6 +41,11 @@ header {
 header ul {
     display: flex;
     gap: 25px;
+}
+
+header a {
+    text-decoration: none;
+    color: #FFF;
 }
 
 header h3 {
@@ -61,6 +62,10 @@ header h3 {
 .right {
     flex: 1;
 
+}
+
+.left {
+    padding-right: 25px;
 }
 
 .right img {
@@ -105,19 +110,71 @@ footer p {
     background-color: #E5E7EB;
 }
 
-.quote p {
+.quote em {
     font-size: 36px;
     color: #1F2937;
-    font-weight: light;
+    font-weight: 100;
     font-style: italic;
+    margin: 50px 0;
+    display: block;
+}
+
+.quote .person {
+    text-align: right;
+    font-weight: bold;
 }
 
 button {
+    padding: 10px 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+button a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.cta {
+    padding-top: 75px;
+}
+
+.cta .inner {
+    color: #FFF;
+    background-color: #3882F6;
+    padding: 25px 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inner h4 {
+    font-weight: bold;
+}
+
+.inner p {
+    font-weight: lighter;
+}
+
+.header-button {
     background-color: #3882F6;
     color: #FFF;
-    padding: 10px 25px;
+    border: 1px solid #3882F6;
+}
+
+.cta-button {
+    background-color: #3882F6;
+    color: #FFF;
+    border: 1px solid #FFF;
+
 }
 
 img {
     max-width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 20%;
 }
